@@ -18,7 +18,8 @@
             FuelButton.Text = "Pay"
         Else
             'Pay flow 
-            MainForm.Enabled = False
+            'MainForm.Enabled = False
+            FuelButton.Enabled = False
 
             Dim payForm As PayForm = New PayForm
             payForm.tankerControl = Me

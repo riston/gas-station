@@ -33,7 +33,8 @@
     End Sub
 
     Sub ResetInterface()
-        MainForm.Enabled = True
+
+        _tankerControl.FuelButton.Enabled = True
         _tankerControl.ammount = 0.0
         _tankerControl.currentCost = 0
 
